@@ -1,0 +1,44 @@
+---
+UID: NN:dbgmodel.IObjectWrapperConcept
+tech.root: 
+title: IObjectWrapperConcept
+ms.date: 
+targetos: Windows
+description: 
+prerelease: false
+req.assembly: 
+req.construct-type: iface
+req.ddi-compliance: 
+req.header: dbgmodel.h
+req.idl: 
+req.include-header: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IObjectWrapperConcept
+f1_keywords:
+ - IObjectWrapperConcept
+ - dbgmodel/IObjectWrapperConcept
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - IObjectWrapperConcept
+---
+
+## -description
+
+## -remarks
+
+## -see-also
+

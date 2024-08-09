@@ -1,0 +1,44 @@
+---
+UID: NN:dbgmodel.IDebugHostFunctionLocalDetails2
+tech.root: 
+title: IDebugHostFunctionLocalDetails2
+ms.date: 
+targetos: Windows
+description: 
+prerelease: false
+req.assembly: 
+req.construct-type: iface
+req.ddi-compliance: 
+req.header: dbgmodel.h
+req.idl: 
+req.include-header: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostFunctionLocalDetails2
+f1_keywords:
+ - IDebugHostFunctionLocalDetails2
+ - dbgmodel/IDebugHostFunctionLocalDetails2
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - IDebugHostFunctionLocalDetails2
+---
+
+## -description
+
+## -remarks
+
+## -see-also
+
