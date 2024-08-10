@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IDebugHostField2
-tech.root: 
+tech.root: debugger
 title: IDebugHostField2
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

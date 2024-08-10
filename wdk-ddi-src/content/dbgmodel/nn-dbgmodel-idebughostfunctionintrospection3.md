@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IDebugHostFunctionIntrospection3
-tech.root: 
+tech.root: debugger
 title: IDebugHostFunctionIntrospection3
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

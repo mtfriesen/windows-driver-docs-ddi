@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IDebugHostModule5
-tech.root: 
+tech.root: debugger
 title: IDebugHostModule5
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

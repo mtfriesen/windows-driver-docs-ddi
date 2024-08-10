@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IDebugHostTaggedUnionRangeEnumerator
-tech.root: 
+tech.root: debugger
 title: IDebugHostTaggedUnionRangeEnumerator
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

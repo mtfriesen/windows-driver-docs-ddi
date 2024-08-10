@@ -1,8 +1,8 @@
 ---
 UID: NE:dbgmodel.KnownCompiler
-tech.root: 
+tech.root: debugger
 title: KnownCompiler
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

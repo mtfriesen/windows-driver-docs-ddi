@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IDebugHostSymbolsTargetComposition
-tech.root: 
+tech.root: debugger
 title: IDebugHostSymbolsTargetComposition
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

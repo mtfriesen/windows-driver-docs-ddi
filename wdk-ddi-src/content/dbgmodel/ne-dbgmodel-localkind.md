@@ -1,8 +1,8 @@
 ---
 UID: NE:dbgmodel.LocalKind
-tech.root: 
+tech.root: debugger
 title: LocalKind
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

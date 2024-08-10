@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IConstructableConcept
-tech.root: 
+tech.root: debugger
 title: IConstructableConcept
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false

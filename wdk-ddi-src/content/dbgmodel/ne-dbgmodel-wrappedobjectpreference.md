@@ -1,8 +1,8 @@
 ---
 UID: NE:dbgmodel.WrappedObjectPreference
-tech.root: 
+tech.root: debugger
 title: WrappedObjectPreference
-ms.date: 
+ms.date:  08/08/2024
 targetos: Windows
 description: 
 prerelease: false
