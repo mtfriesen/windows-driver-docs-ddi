@@ -2,9 +2,9 @@
 UID: NE:dbgmodel.StorageKind
 tech.root: debugger
 title: StorageKind
-ms.date:  08/08/2024
+ms.date:  08/12/2024
 targetos: Windows
-description: 
+description: The StorageKind enum defines where a local is stored.  
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -35,19 +35,33 @@ helpviewer_keywords:
  - StorageKind
 ---
 
-## -description
-
-## -enum-fields
-
-### -field StorageUnknown
-
-### -field StorageRegister
-
-### -field StorageRegisterRelative
-
-### -field StorageRegisterRelativeIndirect
-
-## -remarks
+## -description  
+   
+The StorageKind enum defines where a local is stored.  
+   
+## -enum-fields  
+   
+### -field StorageUnknown  
+   
+The storage location of the local is unknown.  
+   
+### -field StorageRegister  
+   
+The local is stored in a register.  
+   
+### -field StorageRegisterRelative  
+   
+The local is stored at an address relative to a register.  
+   
+### -field StorageRegisterRelativeIndirect  
+   
+The local is stored indirectly through a register-relative address.  
+   
+## -remarks  
+   
+These enums help to clarify the storage location of the local, giving valuable context and information about how and where it is stored within the system. 
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
 

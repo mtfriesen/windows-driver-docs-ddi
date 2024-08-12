@@ -2,9 +2,9 @@
 UID: NE:dbgmodel.LocalKind
 tech.root: debugger
 title: LocalKind
-ms.date:  08/08/2024
+ms.date:  08/12/2024
 targetos: Windows
-description: 
+description: Defines the kind of local that a particular name is (whether an argument to the function or a local variable).  
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -36,14 +36,24 @@ helpviewer_keywords:
 ---
 
 ## -description
+   
+Defines the kind of local that a particular name is (whether an argument to the function or a local variable).  
+   
+## -enum-fields  
+   
+### -field LocalArgument  
+   
+The name is a local argument to the function.  
+   
+### -field LocalVariable  
+   
+The  name is a local variable of the function.  
+   
+## -remarks  
+   
+These enums values provide a way to understand the scope and nature of the local within the function. 
 
-## -enum-fields
-
-### -field LocalArgument
-
-### -field LocalVariable
-
-## -remarks
 
 ## -see-also
 
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
