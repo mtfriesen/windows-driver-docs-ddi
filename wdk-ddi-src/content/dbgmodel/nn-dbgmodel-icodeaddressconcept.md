@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.ICodeAddressConcept
 tech.root: debugger
-title: ICodeAddressConcept
+title: ICodeAddressConcept (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
 description: 

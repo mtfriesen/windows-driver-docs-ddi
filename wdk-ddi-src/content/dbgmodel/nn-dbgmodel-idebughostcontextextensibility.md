@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostContextExtensibility
 tech.root: debugger
-title: IDebugHostContextExtensibility
+title: IDebugHostContextExtensibility 
 ms.date:  08/08/2024
 targetos: Windows
 description: 

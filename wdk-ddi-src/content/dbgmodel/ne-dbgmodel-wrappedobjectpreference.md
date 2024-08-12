@@ -1,10 +1,10 @@
 ---
 UID: NE:dbgmodel.WrappedObjectPreference
 tech.root: debugger
-title: WrappedObjectPreference
-ms.date:  08/08/2024
+title: WrappedObjectPreference enumeration (dbgmodel.h)
+ms.date:  08/12/2024
 targetos: Windows
-description: 
+description: The WrappedObjectPreference enum indicates a preference for how the wrapper and the wrapped object should be treated.  
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -35,15 +35,23 @@ helpviewer_keywords:
  - WrappedObjectPreference
 ---
 
-## -description
-
-## -enum-fields
-
-### -field WrappedObjectNameResolution
-
-### -field WrappedObjectGeneralProxy
-
-## -remarks
+## -description  
+   
+The **WrappedObjectPreference** enum indicates a preference for how the wrapper and the wrapped object should be treated.  
+   
+## -enum-fields  
+   
+### -field WrappedObjectNameResolution  
+   
+Indicates that the wrapped object should be used for name resolution and not interpreted to be a generalized proxy for the object. In essence, things like "." and "->" should work in an expression evaluator; however, other operations should not.  
+   
+### -field WrappedObjectGeneralProxy  
+   
+Indicates that the wrapper should be considered a general proxy for the wrapped object.  
+   
+## -remarks  
+   
+These enums serve to guide the handling of wrapper and wrapped objects, with two distinct modes available. These preferences can affect how functions and operations interact with these objects.
 
 ## -see-also
 

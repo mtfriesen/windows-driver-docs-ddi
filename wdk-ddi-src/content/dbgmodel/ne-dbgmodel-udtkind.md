@@ -1,10 +1,10 @@
 ---
 UID: NE:dbgmodel.UDTKind
 tech.root: debugger
-title: UDTKind
-ms.date:  08/08/2024
+title: UDTKind enumeration (dbgmodel.h)
+ms.date:  08/12/2024
 targetos: Windows
-description: 
+description: The UDTKind enum defines the nature of the User-Defined Type (UDT) in question.  
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -35,21 +35,35 @@ helpviewer_keywords:
  - UDTKind
 ---
 
-## -description
-
-## -enum-fields
-
-### -field UDTStruct
-
-### -field UDTClass
-
-### -field UDTUnion
-
-### -field UDTInterface
-
-### -field UDTTaggedUnion
-
-## -remarks
+## -description  
+   
+The **UDTKind** enum defines the nature of the User-Defined Type (UDT) in question.  
+   
+## -enum-fields  
+   
+### -field UDTStruct  
+   
+The UDT is a structure.  
+   
+### -field UDTClass  
+   
+The UDT is a class.  
+   
+### -field UDTUnion  
+   
+The UDT is a union.  
+   
+### -field UDTInterface  
+   
+The UDT is an interface.  
+   
+### -field UDTTaggedUnion  
+   
+The UDT is a tagged union.  
+   
+## -remarks  
+   
+These enums aid in identifying the kind of UDT, whether a UDT is a class, structure, interface, union, or tagged union. This can be valuable when dealing with complex data structures or when debugging. 
 
 ## -see-also
 

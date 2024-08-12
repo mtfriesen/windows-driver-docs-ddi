@@ -1,7 +1,7 @@
 ---
 UID: NE:dbgmodel.StorageKind
 tech.root: debugger
-title: StorageKind
+title: StorageKind enumeration (dbgmodel.h)
 ms.date:  08/12/2024
 targetos: Windows
 description: The StorageKind enum defines where a local is stored.  

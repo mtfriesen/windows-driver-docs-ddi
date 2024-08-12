@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IConstructableConcept
 tech.root: debugger
-title: IConstructableConcept
+title: IConstructableConcept (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
 description: 

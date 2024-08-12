@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDataModelManager3
 tech.root: debugger
-title: IDataModelManager3
+title: IDataModelManager3 (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
 description: 

@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDataModelScript2
 tech.root: debugger
-title: IDataModelScript2
+title: IDataModelScript2 (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
 description: 

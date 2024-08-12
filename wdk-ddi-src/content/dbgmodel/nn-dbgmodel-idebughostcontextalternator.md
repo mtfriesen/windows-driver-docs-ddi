@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostContextAlternator
 tech.root: debugger
-title: IDebugHostContextAlternator
+title: IDebugHostContextAlternator (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
 description: 
