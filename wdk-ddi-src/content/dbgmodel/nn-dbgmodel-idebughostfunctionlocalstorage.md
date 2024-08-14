@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostFunctionLocalStorage
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: Optional introspection interfaces that defines where a local is stored.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Optional introspection interfaces that defines where a local is stored.
 
 ## -remarks
 

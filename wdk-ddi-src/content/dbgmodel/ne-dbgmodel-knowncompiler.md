@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description
 
-The KnownCompiler enumeration identifies a well-known set of compilers.  
+The **KnownCompiler** enumeration identifies a well-known set of compilers.  
 
 ## -enum-fields
 

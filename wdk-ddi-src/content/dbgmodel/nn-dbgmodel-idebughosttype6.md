@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostType6
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The IDebugHostType6 (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular type.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,12 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular type.
+
+A given language/native type is described by the IDebugHostType2 or [IDebugHostType](nn-dbgmodel-idebughosttype.md) interfaces. Note that some of the methods on these interfaces only apply for specific kinds of types.
+
+This version 6 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

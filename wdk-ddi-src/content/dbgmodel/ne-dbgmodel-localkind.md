@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description
    
-Defines the kind of local that a particular name is (whether an argument to the function or a local variable).  
+The **LocalKind** enum defines the kind of local that a particular name is (whether an argument to the function or a local variable).  
    
 ## -enum-fields  
    

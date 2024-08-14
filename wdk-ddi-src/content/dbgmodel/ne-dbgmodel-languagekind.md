@@ -1,8 +1,8 @@
 ---
 UID: NE:dbgmodel.LanguageKind
 title: LanguageKind (dbgmodel.h)
-description: Identifies the language of the compiland containing a given symbol.
-ms.date: 07/16/2018
+description: Identifies the programming language of the compiler.
+ms.date: 08/14/2024
 keywords: ["LanguageKind enumeration"]
 ms.keywords: LanguageKind, ,
 req.header: dbgmodel.h
@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-Identifies the language of the compiland containing a given symbol.
+Identifies the programming language of the compiler.
 
 ## -enum-fields
 

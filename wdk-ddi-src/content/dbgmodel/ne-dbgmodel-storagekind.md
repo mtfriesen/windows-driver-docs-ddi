@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description  
    
-The StorageKind enum defines where a local is stored.  
+The **StorageKind** enum defines where a local is stored.  
    
 ## -enum-fields  
    
@@ -59,7 +59,7 @@ The local is stored indirectly through a register-relative address.
    
 ## -remarks  
    
-These enums help to clarify the storage location of the local, giving valuable context and information about how and where it is stored within the system. 
+This enums help to clarify the storage location of the local, providing information about how and where it is stored within the system. 
 
 ## -see-also
 

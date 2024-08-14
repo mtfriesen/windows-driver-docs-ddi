@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDataModelManager3 (dbgmodel.h)
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The third version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,7 +36,13 @@ helpviewer_keywords:
  - IDataModelManager3
 ---
 
-## -description
+## -description 
+
+The third version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
+
+This interface is never directly implemented by a client.
+
+This version 3 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

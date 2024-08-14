@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostSymbol3
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The IDebugHostSymbol3(dbgmodel.h) interface defines methods that provide access to a particular symbol.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,11 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+An interface to a particular symbol.
+
+This version 3 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
+
 
 ## -remarks
 

@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostStatus2
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The version 2 of an interface allowing a client to query for the status of the host.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,10 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+The version 2 of an interface allowing a client to query for the status of the host.
+
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

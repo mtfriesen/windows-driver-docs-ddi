@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostModule4
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The IDebugHostModule4 (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular module.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,10 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular module.
+
+This version 4 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

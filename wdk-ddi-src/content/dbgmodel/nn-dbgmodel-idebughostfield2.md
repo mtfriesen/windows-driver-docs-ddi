@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostField2
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: Version 2 of IDebugHostField, which is a specialization of IDebugHostSymbol, which represents a field of a class or struct.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,10 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+A specialization of IDebugHostSymbol which represents a field of a class or struct.
+
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

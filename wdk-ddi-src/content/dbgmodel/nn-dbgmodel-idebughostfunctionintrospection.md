@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostFunctionIntrospection
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description:  A host optional interface which provides detailed information about a function.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+A host optional interface which provides detailed information about a function.
 
 ## -remarks
 

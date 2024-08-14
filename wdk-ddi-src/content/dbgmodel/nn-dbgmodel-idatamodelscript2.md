@@ -38,6 +38,8 @@ helpviewer_keywords:
 
 ## -description
 
+This is the second version of the core script interface.
+
 ## -remarks
 
 ## -see-also

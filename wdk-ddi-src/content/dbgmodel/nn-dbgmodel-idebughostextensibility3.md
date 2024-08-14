@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostExtensibility3
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: The version 3 of the extensibility interface to the underlying debugger. 
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,11 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+
+The extensibility interface to the underlying debugger.
+
+This version 3 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 
