@@ -38,6 +38,10 @@ helpviewer_keywords:
 
 ## -description
 
+## -inheritance
+
+IFoo inherits from IUnknown.
+
 ## -remarks
 
 ## -see-also

@@ -38,7 +38,12 @@ helpviewer_keywords:
 
 ## -description
 
+## -inheritance
+
+IFoo inherits from IUnknown.
+
 ## -remarks
 
 ## -see-also
 
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

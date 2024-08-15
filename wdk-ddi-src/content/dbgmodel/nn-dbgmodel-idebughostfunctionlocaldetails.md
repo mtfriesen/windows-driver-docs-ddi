@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalDetails
 tech.root: debugger
 title: IDebugHostFunctionLocalDetails
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: A host optional interface which provides details about a function local variable. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,7 +38,11 @@ helpviewer_keywords:
 
 ## -description
 
+A host optional interface which provides details about a function local variable. 
 
+## -inheritance
+
+IDebugHostFunctionLocalDetails inherits from IUnknown.
 
 ## -remarks
 

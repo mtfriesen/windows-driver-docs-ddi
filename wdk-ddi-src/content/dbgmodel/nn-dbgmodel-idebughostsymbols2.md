@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostSymbols2
 tech.root: debugger
 title: IDebugHostSymbols2
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: Version 2 of the symbols interface to the underlying debugger.
+description: Version 2 of the symbols interface to the underlying debugger. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -48,4 +48,6 @@ This version 2 of the interface supports all of the previous methods with identi
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
 

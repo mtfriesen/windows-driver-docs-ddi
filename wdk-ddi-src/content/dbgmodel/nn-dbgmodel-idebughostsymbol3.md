@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostSymbol3
 tech.root: debugger
 title: IDebugHostSymbol3
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
 description: The IDebugHostSymbol3(dbgmodel.h) interface defines methods that provide access to a particular symbol.
 prerelease: false
@@ -47,3 +47,4 @@ This version 3 of the interface supports all of the previous methods with identi
 
 ## -see-also
 
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

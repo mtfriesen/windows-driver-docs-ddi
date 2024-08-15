@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IConstructableConcept
 tech.root: debugger
 title: IConstructableConcept (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: (dbgmodel.h)
+description: A concept that a data model can support in order to allow for construction of the object. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,14 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+A concept that a data model can support in order to allow for construction of the object.
+
+Such a data model *MUST* support IDataModelConcept and *MUST* be registered under a name that is returned from IDataModelConcept::GetName.
+
+## -inheritance
+
+IConstructableConcept inherits from IUnknown.
 
 ## -remarks
 

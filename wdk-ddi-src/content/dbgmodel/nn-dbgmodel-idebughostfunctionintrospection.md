@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostFunctionIntrospection
 tech.root: debugger
 title: IDebugHostFunctionIntrospection
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description:  A host optional interface which provides detailed information about a function.
+description:  A host optional interface which provides detailed information about a function. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,18 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-A host optional interface which provides detailed information about a function.
-
-## -remarks
-
-## -see-also
-
-[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
-
-## -description  
-   
-The `IDebugHostFunctionIntrospection` interface provides detailed information about a function. This is an optional host interface that the client can implement if they want to get such function details.  
+The **IDebugHostFunctionIntrospection** interface provides detailed information about a function. This is an optional host interface that the client can implement if they want to get such function details.  
    
 ## -inheritance  
    
@@ -64,24 +53,8 @@ The `IDebugHostFunctionIntrospection` interface provides detailed information ab
 - `IUnknown::Release`: This method decrements the reference count for an interface on a object.   
   
 ## -remarks  
+
 Any object that is required to provide detailed information about an implemented function should consider implementing the `IDebugHostFunctionIntrospection` interface. Following the rules of COM, the object must also implement `IUnknown`.  
-   
-## -see-also  
-
-
-## -description
-
-Interface which clients must implement on any object which is convertible to a display string.
-
-Clients should not rely on the form of this string conversion for programmatic purposes.  It is intended for display purposes only.
-
-## -inheritance
-
-IStringDisplayableConcept inherits from IUnknown.
-
-## -remarks
-
-An object which wishes to provide a string conversion for display purposes can implement the string displayable concept through implementation of the IStringDisplayableConcept interface.
 
 ## -see-also
 

@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostContextControl
 tech.root: debugger
 title: IDebugHostContextControl (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: This dbgmodel.h interface allows to change the "current" context (the internal state) of the debugger (IDebugHostContext).
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,16 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+This interface allows to change the "current" context (the internal state) of the debugger (IDebugHostContext).
+
+The context change can be a full change/switch (for example change the current process/thread/etx. being debugged)
+or a temporary switch. The temporary change/switch of the internal state of the debugger may alter the debugger
+in an inconsistent state and not all debugger functionality is available unless the change/switch is reverted back.
+
+## -inheritance
+
+IDebugHostContextControl inherits from IUnknown.
 
 ## -remarks
 

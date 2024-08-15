@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IActionableConcept
 tech.root: debugger
 title: IActionableConcept (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: (dbgmodel.h)
+description: A concept mechanism for implementing actions.  Clients may choose to either implement this interface or place appropriate metadata on effective void(void) methods. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,16 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+A concept mechanism for implementing actions.  Clients may choose to either implement this interface or place
+appropriate metadata on effective void(void) methods.
+
+While this concept may be implemented, clients wishing to enumerate actions should not directly query for this
+concept.  Rather, they should query for IActionQueryConcept.
+
+## -inheritance
+
+IActionableConcept inherits from IUnknown.
 
 ## -remarks
 

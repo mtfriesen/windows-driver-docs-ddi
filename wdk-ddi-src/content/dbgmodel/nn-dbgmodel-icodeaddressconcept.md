@@ -38,6 +38,12 @@ helpviewer_keywords:
 
 ## -description
 
+The ICodeAddressConcept allows the  the use of a code address model that is code addressable.
+
+## -inheritance
+
+ICodeAddressConcept inherits from IUnknown.
+
 ## -remarks
 
 ## -see-also

@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalDetailsEnumerator
 tech.root: debugger
 title: IDebugHostFunctionLocalDetailsEnumerator
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: A host optional dbgmodel.h interface which enumerates locals & arguments of a function and provides details about their backing storage and types.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,12 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+A host optional interface which enumerates locals & arguments of a function and provides details about their backing storage and types.
+
+## -inheritance
+
+IDebugHostFunctionLocalDetailsEnumerator inherits from IUnknown.
 
 ## -remarks
 

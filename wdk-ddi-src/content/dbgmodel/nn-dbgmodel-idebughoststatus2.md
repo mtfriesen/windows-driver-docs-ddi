@@ -46,3 +46,4 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -see-also
 
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

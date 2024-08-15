@@ -2,7 +2,8 @@
 UID: NN:dbgmodel.IDebugHostType6
 tech.root: debugger
 title: IDebugHostType6
-ms.date:  08/08/2024
+ms.date:  08/15
+/2024
 targetos: Windows
 description: The IDebugHostType6 (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular type.
 prerelease: false
@@ -48,3 +49,4 @@ This version 6 of the interface supports all of the previous methods with identi
 
 ## -see-also
 
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

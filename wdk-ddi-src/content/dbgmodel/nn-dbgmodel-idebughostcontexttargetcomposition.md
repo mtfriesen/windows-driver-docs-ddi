@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostContextTargetComposition
 tech.root: debugger
 title: IDebugHostContextTargetComposition
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: An interface which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for a particular host context.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,14 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+An interface which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for a particular host context.
+
+For a debug host which supports both layers, this interface can be QI'd off any host context.
+
+## -inheritance
+
+IDebugHostContextTargetComposition inherits from IUnknown.
 
 ## -remarks
 

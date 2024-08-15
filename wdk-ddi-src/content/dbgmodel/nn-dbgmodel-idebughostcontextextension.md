@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostContextExtension
 tech.root: debugger
 title: IDebugHostContextExtension
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: An optional dbgmodel interface on host contexts that allows for extensibility based modification.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -37,6 +37,14 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+An optional "interface" on host contexts that allows for extensibility based modification.  
+
+This interface is *NEVER* QI'able off an IDebugHostContext.  Changes must be done via a QI for IDebugHostContextExtensibility and cloning an existing context (with optional additions).  Once this interface is released, it can never be reacquired.
+
+## -inheritance
+
+IDebugHostContextExtension inherits from IUnknown.
 
 ## -remarks
 
