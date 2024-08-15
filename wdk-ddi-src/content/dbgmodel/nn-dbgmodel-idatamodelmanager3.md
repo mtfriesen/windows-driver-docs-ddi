@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDataModelManager3
 tech.root: debugger
 title: IDataModelManager3 (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: The third version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
+description: The third version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostModule3
 tech.root: debugger
 title: IDebugHostModule3
-ms.date:  08/08/2024
+ms.date: 08/15/2024
 targetos: Windows
 description: The IDebugHostModule3 (dbgmodel.h) interface is an IDebugHostSymbol derived interface that provides access to a particular module.
 prerelease: false

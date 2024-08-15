@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugHostFunctionLocalDetails2
 ms.date:  08/08/2024
 targetos: Windows
-description: 
+description: (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

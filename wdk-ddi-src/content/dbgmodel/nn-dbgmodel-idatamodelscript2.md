@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDataModelScript2
 tech.root: debugger
 title: IDataModelScript2 (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: This is the second version of the core script interface. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -39,6 +39,8 @@ helpviewer_keywords:
 ## -description
 
 This is the second version of the core script interface.
+
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostMemory3
 tech.root: debugger
 title: IDebugHostMemory3
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
 description: The IDebugHostMemory3 (dbgmodel.h) interface defines methods that provide memory access to the underlying debugger.
 prerelease: false

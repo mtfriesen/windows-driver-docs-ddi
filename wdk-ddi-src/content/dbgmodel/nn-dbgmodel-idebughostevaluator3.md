@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostEvaluator3
 tech.root: debugger
 title: IDebugHostEvaluator3
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: The version 3 expression evaluator interface to the underlying debugger.
+description: The version 3 expression evaluator interface to the underlying debugger. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostField2
 tech.root: debugger
 title: IDebugHostField2
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: Version 2 of IDebugHostField, which is a specialization of IDebugHostSymbol, which represents a field of a class or struct.
+description: Version 2 of IDebugHostField, which is a specialization of IDebugHostSymbol, which represents a field of a class or struct. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

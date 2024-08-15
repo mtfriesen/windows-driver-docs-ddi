@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostStatus2
 tech.root: debugger
 title: IDebugHostStatus2
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: The version 2 of an interface allowing a client to query for the status of the host.
+description: The version 2 of an interface allowing a client to query for the status of the host. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

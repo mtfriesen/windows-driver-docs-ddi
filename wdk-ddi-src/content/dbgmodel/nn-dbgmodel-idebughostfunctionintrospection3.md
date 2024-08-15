@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostFunctionIntrospection3
 tech.root: debugger
 title: IDebugHostFunctionIntrospection3
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: The version 3 of a host optional interface which provides detailed information about a function.
+description: The version 3 of a host optional interface which provides detailed information about a function. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
