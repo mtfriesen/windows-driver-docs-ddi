@@ -1,19 +1,19 @@
 ---
-UID: NE:srb.SRBEX_DATA_NVME_RESPONSE_FLAG
+UID: NE:storport.SRBEX_DATA_NVME_RESPONSE_FLAG
 tech.root: storage
-title: SRBEX_DATA_NVME_RESPONSE_FLAG (srb.h)
-ms.date: 03/12/2024
+title: SRBEX_DATA_NVME_RESPONSE_FLAG (storport.h)
+ms.date: 07/26/2024
 targetos: Windows
-description: Enumerates the properties of a SRBEX data NVMe response.
+description: Learn more about the SRBEX_DATA_NVME_RESPONSE_FLAG enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
-req.header: srb.h
+req.header: storport.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
 typedef_isUnnamed: true
@@ -23,15 +23,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - srb.h
+ - storport.h
 api_name:
  - SRBEX_DATA_NVME_RESPONSE_FLAG
  - PSRBEX_DATA_NVME_RESPONSE_FLAG
 f1_keywords:
  - SRBEX_DATA_NVME_RESPONSE_FLAG
- - srb/SRBEX_DATA_NVME_RESPONSE_FLAG
+ - storport/SRBEX_DATA_NVME_RESPONSE_FLAG
  - PSRBEX_DATA_NVME_RESPONSE_FLAG
- - srb/PSRBEX_DATA_NVME_RESPONSE_FLAG
+ - storport/PSRBEX_DATA_NVME_RESPONSE_FLAG
 dev_langs:
  - c++
 helpviewer_keywords:
@@ -40,14 +40,8 @@ helpviewer_keywords:
 
 ## -description
 
-Enumerates the properties of a SRBEX data NVMe response.
+See [**SRBEX_DATA_NVME_RESPONSE_FLAG** (*srb.h*)](../srb/ne-srb-srbex_data_nvme_response_flag.md).
 
 ## -enum-fields
 
 ### -field SRBEX_DATA_NVME_RESPONSE_FLAG_SQHD_VALID
-
-Indicates that the submission queue head pointer is valid.
-
-## -remarks
-
-## -see-also
