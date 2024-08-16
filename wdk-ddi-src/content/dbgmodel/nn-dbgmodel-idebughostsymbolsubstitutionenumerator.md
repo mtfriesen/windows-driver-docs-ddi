@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostSymbolSubstitutionEnumerator
 tech.root: debugger
 title: IDebugHostSymbolSubstitutionEnumerator
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: An interface for enumerating symbols with substitution text. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,11 +38,15 @@ helpviewer_keywords:
 
 ## -description
 
+An interface for enumerating symbols with substitution text.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+IDebugHostSymbolSubstitutionEnumerator inherits from IDebugHostSymbolEnumerator.
 
 ## -remarks
+
+The IDebugHostSymbolSubstitutionEnumerator interface extends the IDebugHostSymbolEnumerator interface to provide functionality for iterating over symbols and retrieving their textual representations in a given context.
 
 ## -see-also
 

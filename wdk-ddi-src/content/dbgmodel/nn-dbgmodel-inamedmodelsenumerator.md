@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.INamedModelsEnumerator
 tech.root: debugger
 title: INamedModelsEnumerator
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: An interface which enumerates registered named models and their associated name. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,9 +38,11 @@ helpviewer_keywords:
 
 ## -description
 
+An interface which enumerates registered named models and their associated name.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+INamedModelsEnumerator inherits from IUnknown.
 
 ## -remarks
 

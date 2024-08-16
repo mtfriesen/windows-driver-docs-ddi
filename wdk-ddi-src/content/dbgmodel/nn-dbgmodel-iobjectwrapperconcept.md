@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IObjectWrapperConcept
 tech.root: debugger
 title: IObjectWrapperConcept
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: An object which is a wrapper for another object (e.g.: a smart pointer like std::unique_ptr) can implement this concept to indicate such. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,10 +38,11 @@ helpviewer_keywords:
 
 ## -description
 
+An object which is a wrapper for another object (e.g.: a smart pointer like std::unique_ptr) can implement this concept to indicate such.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
-
+IObjectWrapperConcept inherits from IUnknown.
 
 ## -remarks
 

@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IFilteredNamespacePropertyToken
 tech.root: debugger
 title: IFilteredNamespacePropertyToken
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: Provides an extension to the data model functionality for manipulating namespaces. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,9 +38,11 @@ helpviewer_keywords:
 
 ## -description
 
+Provides an extension to the data model functionality for manipulating namespaces.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+IFilteredNamespacePropertyToken inherits from IUnknown.
 
 ## -remarks
 

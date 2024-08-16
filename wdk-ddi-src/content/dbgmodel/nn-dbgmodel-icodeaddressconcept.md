@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.ICodeAddressConcept
 tech.root: debugger
 title: ICodeAddressConcept (dbgmodel.h)
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: (dbgmodel.h)
+description: The ICodeAddressConcept allows the  the use of a code address model that is code addressable. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface

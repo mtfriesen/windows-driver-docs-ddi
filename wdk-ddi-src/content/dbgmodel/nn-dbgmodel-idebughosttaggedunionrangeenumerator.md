@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostTaggedUnionRangeEnumerator
 tech.root: debugger
 title: IDebugHostTaggedUnionRangeEnumerator
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: IDebugHostTaggedUnionRangeEnumerator enumerates a set of tag ranges for a tagged union case. (dbgmodel.h) 
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,9 +38,11 @@ helpviewer_keywords:
 
 ## -description
 
+IDebugHostTaggedUnionRangeEnumerator enumerates a set of tag ranges for a tagged union case. This can be acquired by calling DebugHostType6::GetTaggedUnionTagRanges() on a tagged union case type.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+IDebugHostTaggedUnionRangeEnumerator inherits from IUnknown.
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDeconstructableConcept
 tech.root: debugger
 title: IDeconstructableConcept
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
 description: 
 prerelease: false
@@ -38,11 +38,17 @@ helpviewer_keywords:
 
 ## -description
 
+A concept that a data model can support in order to decompose an object into a set of arguments which can be passed to the constructable concept in order to create a new identical instance of the object (short any extensions which were manually attached).
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+IDeconstructableConcept inherits from IUnknown.
 
 ## -remarks
+
+An object which is indexable via a custom "value type" can support the deconstructable concept on object in order to allow a debugger engine to "serialize" enough information to get the indexer back in a subsequent invocation.
+
+Any object which supports the deconstructable concept should have a parent model attached which supports the constructable concept.  That model should be registered under the name returned from the GetConstructableModelName method on this interface.  The inverse is not necessarily true.
 
 ## -see-also
 

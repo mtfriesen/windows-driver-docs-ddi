@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostSymbolsTargetComposition
 tech.root: debugger
 title: IDebugHostSymbolsTargetComposition
-ms.date:  08/08/2024
+ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: IDebugHostSymbolsTargetComposition provides interfaces which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for symbols. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,11 +38,17 @@ helpviewer_keywords:
 
 ## -description
 
+IDebugHostSymbolsTargetComposition provides interfaces which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for symbols.
+
 ## -inheritance
 
-IFoo inherits from IUnknown.
+IDebugHostSymbolsTargetComposition inherits from IUnknown.
 
 ## -remarks
+
+This and IDebugHostContextTargetComposition are optional Bridge Interfaces to Target Composition Interfaces.
+
+A debug host which only supports the data model layer need not support any of these interfaces.  A debug host which supports both the data model layer and target composition layer of extensibility supports these to bridge between the two layers.
 
 ## -see-also
 

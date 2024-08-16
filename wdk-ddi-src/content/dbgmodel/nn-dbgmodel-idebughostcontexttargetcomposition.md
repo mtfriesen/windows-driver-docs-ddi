@@ -48,6 +48,10 @@ IDebugHostContextTargetComposition inherits from IUnknown.
 
 ## -remarks
 
+This and IDebugHostSymbolsTargetComposition are optional Bridge Interfaces to Target Composition Interfaces.
+
+A debug host which only supports the data model layer need not support any of these interfaces.  A debug host which supports both the data model layer and target composition layer of extensibility supports these to bridge between the two layers.
+
 ## -see-also
 
 [Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)
