@@ -5,7 +5,6 @@ title: IDebugHostFunctionLocalStorageEnumerator
 ms.date:  08/15/2024
 targetos: Windows
 description: IDebugHostFunctionLocalStorageEnumerator provides an interface to storage for the local (what registers or memory locations. (dbgmodel.h)
-it may be in within the function).
 prerelease: false
 req.assembly: 
 req.construct-type: iface

@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDeconstructableConcept
 ms.date:  08/15/2024
 targetos: Windows
-description: 
+description: A concept that a data model can support in order to decompose an object into a set of arguments which can be passed to the constructable concept in order to create a new identical instance of the object (dbgmodel.h).
 prerelease: false
 req.assembly: 
 req.construct-type: iface
