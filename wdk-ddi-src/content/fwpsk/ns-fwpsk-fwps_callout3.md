@@ -89,8 +89,6 @@ A callout driver passes a pointer to an initialized **FWPS_CALLOUT3** structure 
 
 A callout can set the **FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW** flag only for connections on which the driver is interested in performing stream inspections. This callout will be ignored on all other connections. Performance will be improved and the driver will not have to maintain unnecessary state data.
 
-This structure is essentially identical to the previous version, [FWPS_CALLOUT3](ns-fwpsk-fwps_callout3_.md). The only differences are that the members of this version store the updated versions of the callout function pointers, and additional flags are available for callout drivers to set.
-
 **FWPS_CALLOUT3** is the specific version of **FWPS_CALLOUT**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
 
 ## -see-also

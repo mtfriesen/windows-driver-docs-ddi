@@ -95,7 +95,7 @@ Here are all the markdown links in the current document:
 
 - **[FwpmEngineOpen0](nf-fwpmk-fwpmengineopen0.md)**
 - **[IPsecDospStateCreateEnumHandle0](nf-fwpmk-ipsecdospstatecreateenumhandle0.md)**
-- **FwpmFreeMemory0[FwpmFreeMemory0](../../../CONTRIBUTING.md)**
+- **[FwpmFreeMemory0](nf-fwpmk-fwpmfreememory0.md)**
 - [IPSEC_DOSP_STATE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state0)
 - [WFP Error Codes](/windows/win32/fwp/wfp-error-codes)
 - [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows)

@@ -6,7 +6,7 @@ ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714
 ms.date: 06/26/2024
 keywords: ["Hidpi.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: hid
 f1_keywords:
  - hidpi

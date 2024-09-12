@@ -58,7 +58,7 @@ A value that indicates the type of notification that the filter engine is sendin
 
 ### -param filterKey
 
-A pointer to the management identifier for the filter, as specified by the application or driver that is adding or deleting the filter. Must be **NULL** if the *notifyType* parameter is set to **FWPS_CALLOUT_NOTIFY_DELETE_FILTER**. For more information, see [Remarks](#-remarks).
+A pointer to the management identifier for the filter, as specified by the application or driver that is adding or deleting the filter. Must be **NULL** if the *notifyType* parameter is set to **FWPS_CALLOUT_NOTIFY_DELETE_FILTER**. For more information, see [Remarks](#remarks).
 
 ### -param filter
 
