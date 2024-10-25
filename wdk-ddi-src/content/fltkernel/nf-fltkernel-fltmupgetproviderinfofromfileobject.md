@@ -58,7 +58,7 @@ helpviewer_keywords:
 
 ### -param Level
 
-[in] The level of information that this routine should return. For more information about the possible values for this parameter, see [**FsRtlMupGetProviderInfoFromFileObject**](nf-ntifs-fsrtlmupgetproviderinfofromfileobject.md).
+[in] The level of information that this routine should return. For more information about the possible values for this parameter, see [**FsRtlMupGetProviderInfoFromFileObject**](../ntifs/nf-ntifs-fsrtlmupgetproviderinfofromfileobject.md).
 
 ### -param Buffer
 
@@ -75,7 +75,7 @@ helpviewer_keywords:
 ## -remarks
 
 This routine is needed to handle the case of providers that register using
-[**FsRtlRegisterUncProviderEx**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex.md). The device name on the file objects for such provider would be *\Device\Mup*.
+[**FsRtlRegisterUncProviderEx**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex.md). The device name on the file objects for such provider would be *\Device\Mup*.
 
 Filters can use this routine for the following purposes:
 
@@ -88,6 +88,6 @@ The caller guarantees that the **FileObject** will be valid for the duration of 
 
 ## -see-also
 
-[**FsRtlMupGetProviderInfoFromFileObject**](nf-ntifs-fsrtlmupgetproviderinfofromfileobject.md)
+[**FsRtlMupGetProviderInfoFromFileObject**](../ntifs/nf-ntifs-fsrtlmupgetproviderinfofromfileobject.md)
 
-[**FsRtlRegisterUncProviderEx**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex.md)
+[**FsRtlRegisterUncProviderEx**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex.md)
