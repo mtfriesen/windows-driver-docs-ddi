@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.LanguageKind
 title: LanguageKind (dbgmodel.h)
 description: Identifies the programming language of the compiler.
-ms.date: 08/14/2024
+ms.date: 10/31/2024
 keywords: ["LanguageKind enumeration"]
 ms.keywords: LanguageKind, ,
 req.header: dbgmodel.h
@@ -55,6 +55,10 @@ Indicates the C++ language
 ### -field LanguageAssembly 
 
 Indicates the assembly language
+
+### -field LanguageRust
+
+Indicates the Rust language
 
 ## -remarks
 

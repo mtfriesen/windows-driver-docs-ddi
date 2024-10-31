@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.ExtendedArrayDimensionFlags
 tech.root: debugger
 title: ExtendedArrayDimensionFlags
-ms.date: 07/03/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: This enum defines the memory layout of one dimension of an extended array.
 prerelease: false

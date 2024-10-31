@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.AddressSpaceRelation
 tech.root: debugger
 title: AddressSpaceRelation
-ms.date: 07/03/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: Defines the kind of address space being used.
 prerelease: false
@@ -63,10 +63,6 @@ The address space is a superset.
 
 ## -remarks
 
-USE_CURRENT_HOST_CONTEXT  - Methods which take an IDebugHostContext can be called with this special defined value to indicate to the debug host that the "current" context of the debugger should be used.  This is in lieu of explicitly calling IDebugHost::GetCurrentContext and explicitly passing it to the method needing
-an IDebugHostContext.
-
-Using this may be more efficient than the explicit query and pass.
 
 ## -see-also
 
