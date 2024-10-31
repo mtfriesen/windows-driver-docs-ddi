@@ -54,7 +54,7 @@ The **RX_CONTEXT** structure encapsulates an IRP for use by RDBSS, network mini-
 
 ### -field NodeTypeCode
 
-The unique node type used for an **RX_CONTEXT** structure. RDBSS sets this member to **RDBSS_NTC_RX_CONTEXT** when an **RX_CONTEXT** is initialized in [**RxInitializeContext**](nf-rxcontx-rxinitializecontext). If a network mini-redirector driver initializes an **RX_CONTEXT** structure using some other method, this member must be set.
+The unique node type used for an **RX_CONTEXT** structure. RDBSS sets this member to **RDBSS_NTC_RX_CONTEXT** when an **RX_CONTEXT** is initialized in [**RxInitializeContext**](nf-rxcontx-rxinitializecontext.md). If a network mini-redirector driver initializes an **RX_CONTEXT** structure using some other method, this member must be set.
 
 RDBSS defines this member as part of a standard header for all structures used by RDBSS.
 
@@ -94,7 +94,7 @@ The minor function for the IRP encapsulated by this RX_CONTEXT.
 
 ### -field PendingReturned
 
-If set to TRUE, this specifies that RDBSS or a driver has marked the IRP pending. Each [**IoCompletion**](../wdm/nc-wdm-io_completion_routine.md) routine should check the value of this flag. If the flag is TRUE, and if the **IoCompletion** routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call [**IoMarkIrpPending**](../wdm/nc-wdm-iomarkirppending.md) to propagate the pending status to drivers above it in the device stack. This member is similar to the same field in the IRP.
+If set to TRUE, this specifies that RDBSS or a driver has marked the IRP pending. Each [**IoCompletion**](../wdm/nc-wdm-io_completion_routine.md) routine should check the value of this flag. If the flag is TRUE, and if the **IoCompletion** routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call [**IoMarkIrpPending**](../wdm/nf-wdm-iomarkirppending.md) to propagate the pending status to drivers above it in the device stack. This member is similar to the same field in the IRP.
 
 RDBSS always sets this member to TRUE before calling the network mini-redirector driver.
 
@@ -104,7 +104,7 @@ If set to TRUE, this indicates if the associated request is to be posted to a RD
 
 ### -field RealDevice
 
-A pointer to the device object for the target network mini-redirector driver. RDBSS sets this member to the device object for the network mini-redirector driver when an RX_CONTEXT is allocated in the [**RxInitializeContext**](nf-rxcontx-rxinitializecontext) routine. This member is copied from the **FileObject->DeviceObject** member from the IRP stack. The device object for the network mini-redirector is also stored in the **RxDeviceObject** structure member.
+A pointer to the device object for the target network mini-redirector driver. RDBSS sets this member to the device object for the network mini-redirector driver when an RX_CONTEXT is allocated in the [**RxInitializeContext**](nf-rxcontx-rxinitializecontext.md) routine. This member is copied from the **FileObject->DeviceObject** member from the IRP stack. The device object for the network mini-redirector is also stored in the **RxDeviceObject** structure member.
 
 The **RealDevice**  member is not currently used by RDBSS, but can be used by network mini-redirectors.
 
@@ -192,7 +192,7 @@ A member of an unnamed union used to force proper alignment on the **StoredStatu
 
 A member of an unnamed union used to return status information by a network mini-redirector driver for some low I/O (read, write, FSCTL, etc.) and **MrxQueryXXX** operations.
 
-The unique node type used for an RX_CONTEXT structure. All of the major structure types (RX_CONTEXT, SRV_CALL, NET_ROOT, V_NET_ROOT, SRV_OPEN, FCB, and FOBX, for example) used by RDBSS have a unique two-byte node type code defined in the *nodetype.h* include file which can be used for debugging. RDBSS sets this member to RDBSS_NTC_RX_CONTEXT when an RX_CONTEXT is initialized in the [**RxInitializeContext**](nf-rxcontx-rxinitializecontext) routine. If a network mini-redirector driver initializes an RX_CONTEXT structure using some other method, this member must be set.
+The unique node type used for an RX_CONTEXT structure. All of the major structure types (RX_CONTEXT, SRV_CALL, NET_ROOT, V_NET_ROOT, SRV_OPEN, FCB, and FOBX, for example) used by RDBSS have a unique two-byte node type code defined in the *nodetype.h* include file which can be used for debugging. RDBSS sets this member to RDBSS_NTC_RX_CONTEXT when an RX_CONTEXT is initialized in the [**RxInitializeContext**](nf-rxcontx-rxinitializecontext.md) routine. If a network mini-redirector driver initializes an RX_CONTEXT structure using some other method, this member must be set.
 
 RDBSS defines this member as part of a standard header for all structures used by RDBSS.
 
@@ -305,7 +305,7 @@ This member is not currently used. The security context is passed in the **Creat
 
 ### -field Create
 
-A structure member of an unnamed union used for handling [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create.md) requests. This member is used for handling file open requests that result in calls to the [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) routine. This member is also used for prefix resolution requests. RDBSS passes information in the **Create** structure member to the network mini-redirector and the network mini-redirector returns information to RDBSS in the **Create** structure member.
+A structure member of an unnamed union used for handling [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create) requests. This member is used for handling file open requests that result in calls to the [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) routine. This member is also used for prefix resolution requests. RDBSS passes information in the **Create** structure member to the network mini-redirector and the network mini-redirector returns information to RDBSS in the **Create** structure member.
 
 ### -field Create.NtCreateParameters
 
@@ -407,7 +407,7 @@ A Unicode string that contains the domain name for this **UserName**.
 
 ### -field QueryDirectory
 
-A structure member of an unnamed union used for handling [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control.md) requests. This member is used for handling query directory requests that result in calls to the **MrxQueryDirectory** routine. RDBSS passes information in the **QueryDirectory** structure member to the network mini-redirector.
+A structure member of an unnamed union used for handling [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) requests. This member is used for handling query directory requests that result in calls to the **MrxQueryDirectory** routine. RDBSS passes information in the **QueryDirectory** structure member to the network mini-redirector.
 
 ### -field QueryDirectory.FileIndex
 
@@ -431,7 +431,7 @@ A Boolean value that is set to TRUE when the query is not a wild card query ("*.
 
 ### -field NotifyChangeDirectory
 
-A structure member of an unnamed union used for handling IRP_MJ_DIRECTORY_CONTROL requests with a minor function of IRP_MN_NOTIFY_CHANGE_DIRECTORY. This member is used for handling directory change requests that result in calls to the [**MRxLowIOSubmit\[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY\]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-.md) routine. RDBSS passes information in the **NotifyChangeDirectory** structure member and the **pLowIoContext->ParamsFor.NotifyChangeDirectory** structure to the network mini-redirector.
+A structure member of an unnamed union used for handling IRP_MJ_DIRECTORY_CONTROL requests with a minor function of IRP_MN_NOTIFY_CHANGE_DIRECTORY. This member is used for handling directory change requests that result in calls to the [**MRxLowIOSubmit\[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY\]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-) routine. RDBSS passes information in the **NotifyChangeDirectory** structure member and the **pLowIoContext->ParamsFor.NotifyChangeDirectory** structure to the network mini-redirector.
 
 ### -field NotifyChangeDirectory.pVNetRoot
 
@@ -439,7 +439,7 @@ A pointer to the V_NET_ROOT structure associated with the directory. This parame
 
 ### -field QueryEa
 
-A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea.md) requests. This member is used for handling extended attribute query requests that result in calls to the [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo) routine. RDBSS passes information in the **QueryEa** structure member to the network mini-redirector.
+A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea) requests. This member is used for handling extended attribute query requests that result in calls to the [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo) routine. RDBSS passes information in the **QueryEa** structure member to the network mini-redirector.
 
 ### -field QueryEa.UserEaList
 
@@ -467,7 +467,7 @@ A Boolean value when set to TRUE indicates to begin the scan at the entry in the
 
 ### -field QuerySecurity
 
-A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security.md) requests. This member is used for handling query security requests that result in calls to the [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo) routine. RDBSS passes information in the **QuerySecurity** structure member to the network mini-redirector.
+A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security) requests. This member is used for handling query security requests that result in calls to the [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo) routine. RDBSS passes information in the **QuerySecurity** structure member to the network mini-redirector.
 
 ### -field QuerySecurity.SecurityInformation
 
@@ -479,7 +479,7 @@ The length, in bytes, of the buffer pointed to by **SecurityInformation** member
 
 ### -field SetSecurity
 
-A structure member of an unnamed union used for handling [**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security.md) requests. This member is used for handling query security requests that result in calls to the [**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo) routine. RDBSS passes information in the **SetSecurity** structure member to the network mini-redirector.
+A structure member of an unnamed union used for handling [**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security) requests. This member is used for handling query security requests that result in calls to the [**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo) routine. RDBSS passes information in the **SetSecurity** structure member to the network mini-redirector.
 
 ### -field SetSecurity.SecurityInformation
 
@@ -491,7 +491,7 @@ A pointer to a SECURITY_DESCRIPTOR structure that contains the values of the sec
 
 ### -field QueryQuota
 
-A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota.md) requests. This member is used for handling query security requests that result in calls to the [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) routine. RDBSS passes information in the **QueryQuota** structure member to the network mini-redirector.
+A structure member of an unnamed union used for handling [**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota) requests. This member is used for handling query security requests that result in calls to the [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) routine. RDBSS passes information in the **QueryQuota** structure member to the network mini-redirector.
 
 ### -field QueryQuota.Length
 
@@ -523,7 +523,7 @@ A Boolean value when set to TRUE indicates to begin the scan at the entry in the
 
 ### -field SetQuota
 
-A structure member of an unnamed union used for handling [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota.md) requests. This structure is not currently used by RDBSS.
+A structure member of an unnamed union used for handling [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota) requests. This structure is not currently used by RDBSS.
 
 ### -field SetQuota.Length
 
@@ -597,52 +597,52 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
   
 [**IOCTL_REDIR_QUERY_PATH_EX**](../ntifs/ni-ntifs-ioctl_redir_query_path_ex.md)  
 
-[**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create.md)
+[**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create)
 
-[**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control.md)  
+[**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control)  
 
-[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control.md)  
+[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)  
 
-[**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea.md)  
+[**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea)  
 
-[**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota.md)  
+[**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota)  
 
-[**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security.md)  
+[**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security)  
 
-[**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota.md)  
+[**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota)  
 
-[**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security.md)  
+[**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security)  
 
 [**IoCompletion**](../wdm/nc-wdm-io_completion_routine.md)  
 
 [**IoMarkIrpPending**](../wdm/nf-wdm-iomarkirppending.md)  
 
-[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate.md)  
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)  
 
-[**MRxLowIOSubmit\[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY\]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-.md)  
+[**MRxLowIOSubmit\[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY\]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-)  
 
-[**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory.md)  
+[**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory)  
 
-[**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo.md)  
+[**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo)  
 
-[**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo.md)  
+[**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo)  
 
-[**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo.md)  
+[**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo)  
 
-[**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo.md)  
+[**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo)  
 
-[**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo.md)  
+[**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo)  
 
-[**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo.md)  
+[**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo)  
 
-[**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup.md)  
+[**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup)  
 
-[**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo.md)  
+[**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo)  
 
-[**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo.md)  
+[**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo)  
 
 [**RxCreateRxContext**](nf-rxcontx-rxcreaterxcontext.md)  
 
-[**RxInitializeContext**](nf-rxcontx-rxinitializecontext)
+[**RxInitializeContext**](nf-rxcontx-rxinitializecontext.md)
 
 [**RxStartMinirdr**](../mrx/nf-mrx-rxstartminirdr.md)
