@@ -248,12 +248,12 @@ A pointer to the list entry used to serialize pipe operations on a per-file-obje
 
 A structure member of an unnamed union used for the following routines:
 
-* [**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory.md)
-* [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo.md)  
-* [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo.md)  
-* [**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo.md)  
-* [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup.md)  
-* [**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo.md)  
+* [**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory)
+* [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo)  
+* [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo)  
+* [**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo)  
+* [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup)  
+* [**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo)  
 
 RDBSS passes information in the **Info** structure member to the network mini-redirector and the network mini-redirector returns information to RDBSS in the **Info** structure member.
 
@@ -287,7 +287,7 @@ This member is reserved for internal use.
 
 ### -field PrefixClaim
 
-A structure member of an unnamed union used for prefix resolution requests sent from the Multiple UNC Provider (MUP). A prefix claim results from an [**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control.md) request from MUP to RDBSS for [**IOCTL_REDIR_QUERY_PATH**](../ntifs/ni-ntifs-ioctl_redir_query_path.md) or [**IOCTL_REDIR_QUERY_PATH_EX**](../ntifs/ni-ntifs-ioctl_redir_query_path_ex.md). RDBSS passes information in the **PrefixClaim** structure to the network mini-redirector and the network mini-redirector returns information to RDBSS in the **PrefixClaim** structure.
+A structure member of an unnamed union used for prefix resolution requests sent from the Multiple UNC Provider (MUP). A prefix claim results from an [**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control) request from MUP to RDBSS for [**IOCTL_REDIR_QUERY_PATH**](../ntifs/ni-ntifs-ioctl_redir_query_path.md) or [**IOCTL_REDIR_QUERY_PATH_EX**](../ntifs/ni-ntifs-ioctl_redir_query_path_ex.md). RDBSS passes information in the **PrefixClaim** structure to the network mini-redirector and the network mini-redirector returns information to RDBSS in the **PrefixClaim** structure.
 
 ### -field PrefixClaim.SuppliedPathName
 
