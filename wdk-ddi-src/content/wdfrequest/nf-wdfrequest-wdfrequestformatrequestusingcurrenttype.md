@@ -4,7 +4,7 @@ title: WdfRequestFormatRequestUsingCurrentType function (wdfrequest.h)
 description: The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target.
 old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 10/01/2024
 keywords: ["WdfRequestFormatRequestUsingCurrentType function"]
 ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType
 req.header: wdfrequest.h
@@ -93,15 +93,6 @@ MyEvtIoDefault(
 {
     WDF_REQUEST_SEND_OPTIONS options;
     NTSTATUS status;
-    WDF_REQUEST_PARAMETERS params;
-    BOOLEAN ret;
-
-    WDF_REQUEST_PARAMETERS_INIT(&params);
-
-    WdfRequestGetParameters(
-                            Request,
-                            &params
-                            );
 
     WdfRequestFormatRequestUsingCurrentType(Request);
 
