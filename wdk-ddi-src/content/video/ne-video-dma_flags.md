@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DMA_FLAGS** enumeration specifies flags for the [**VideoPortLockPages**](nf-video-videportlockpages.md) or [**VideoPortDoDma**](nf-video-videportdodma.md) functions.
+The **DMA_FLAGS** enumeration specifies flags for the [**VideoPortLockPages**](nf-video-videoportlockpages.md) or [**VideoPortDoDma**](nf-video-videoportdodma.md) functions.
 
 ## -enum-fields
 
@@ -51,12 +51,12 @@ Tells the video port to leave the pages locked if possible.
 
 ### -field VideoPortDmaInitOnly
 
-Tells the video port to lock the pages but not call the miniport's [**HwStartDma**](nc-video-pvideo_hw_start_dma.md) routine. This flag isn't applicable to [**VideoPortDoDma**](nf-video-videportdodma.md).
+Tells the video port to lock the pages but not call the miniport's [**HwStartDma**](nc-video-pvideo_hw_start_dma.md) routine. This flag isn't applicable to [**VideoPortDoDma**](nf-video-videoportdodma.md).
 
 ## -see-also
 
 [**HwStartDma**](nc-video-pvideo_hw_start_dma.md)
 
-[**VideoPortDoDma**](nf-video-videportdodma.md)
+[**VideoPortDoDma**](nf-video-videoportdodma.md)
 
-[**VideoPortLockPages**](nf-video-videportlockpages.md)
+[**VideoPortLockPages**](nf-video-videoportlockpages.md)
