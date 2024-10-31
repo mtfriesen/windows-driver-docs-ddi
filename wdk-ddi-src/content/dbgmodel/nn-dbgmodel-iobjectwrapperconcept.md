@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IObjectWrapperConcept
 tech.root: debugger
 title: IObjectWrapperConcept
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: An object which is a wrapper for another object can implement this concept to indicate such. (dbgmodel.h)
 prerelease: false

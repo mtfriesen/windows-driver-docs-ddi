@@ -2,7 +2,7 @@
 UID: NS:dbgmodel.ExtendedArrayDimension
 tech.root: debugger
 title: ExtendedArrayDimension structure (dbgmodel.h)
-ms.date: 08/12/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: The ExtendedArrayDimension struct provides details about an array dimension, including how to interpret the remainder of the information in the array dimension, lower bounds, length, and stride.  
 prerelease: false

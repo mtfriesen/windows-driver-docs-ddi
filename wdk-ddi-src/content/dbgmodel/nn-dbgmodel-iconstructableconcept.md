@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IConstructableConcept
 tech.root: debugger
 title: IConstructableConcept (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: A concept that a data model can support in order to allow for construction of the object. (dbgmodel.h)
 prerelease: false

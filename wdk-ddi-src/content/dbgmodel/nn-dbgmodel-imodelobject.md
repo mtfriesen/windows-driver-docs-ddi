@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IModelObject
 title: IModelObject (dbgmodel.h)
 description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger. (dbgmodel.h)
-ms.date: 08/15/2024
+ms.date: 10/31/2024
 keywords: ["IModelObject interface"]
 req.header: dbgmodel.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostEvaluator3
 tech.root: debugger
 title: IDebugHostEvaluator3
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: The version 3 expression evaluator interface to the underlying debugger. (dbgmodel.h)
 prerelease: false
@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-The expression evaluator interface to the underlying debugger.
+he version 3 expression evaluator interface to the underlying debugger. 
 
 This version 3 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 

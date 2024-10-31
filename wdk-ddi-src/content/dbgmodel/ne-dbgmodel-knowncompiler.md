@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.KnownCompiler
 tech.root: debugger
 title: KnownCompiler enumeration (dbgmodel.h)
-ms.date:  08/12/2024
+ms.date:  10/31/2024
 targetos: Windows
 description: The KnownCompiler enumeration identifies a well-known set of compilers.  
 prerelease: false

@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostBaseClass2
 tech.root: debugger
 title: IDebugHostBaseClass2 (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
-description: An extended specialization of IDebugHostSymbol which represents a base class. (dbgmodel.h)
+description: The second version of an extended specialization of IDebugHostSymbol which represents a base class. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,7 +38,9 @@ helpviewer_keywords:
 
 ## -description
 
-An extended specialization of IDebugHostSymbol which represents a base class.
+The second version of an extended specialization of IDebugHostSymbol which represents a base class.
+
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -remarks
 

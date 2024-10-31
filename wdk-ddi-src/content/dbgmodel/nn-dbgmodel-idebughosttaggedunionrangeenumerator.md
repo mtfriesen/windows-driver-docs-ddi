@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostTaggedUnionRangeEnumerator
 tech.root: debugger
 title: IDebugHostTaggedUnionRangeEnumerator
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: IDebugHostTaggedUnionRangeEnumerator enumerates a set of tag ranges for a tagged union case. (dbgmodel.h) 
 prerelease: false

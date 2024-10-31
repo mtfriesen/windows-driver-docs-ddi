@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelManager4
 tech.root: debugger
 title: IDataModelManager4 (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: The fourth version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. (dbgmodel.h)
 prerelease: false

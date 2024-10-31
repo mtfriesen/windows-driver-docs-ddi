@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalStorage2
 tech.root: debugger
 title: IDebugHostFunctionLocalStorage2
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: The version 2 of an optional introspection interface that defines where a local is stored. (dbgmodel.h)
 prerelease: false
@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-Optional introspection interface that defines where a local is stored.
+The version 2 of an optional introspection interface that defines where a local is stored.
 
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostContextControl
 tech.root: debugger
 title: IDebugHostContextControl (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: This dbgmodel.h interface allows to change the "current" context (the internal state) of the debugger (IDebugHostContext).
 prerelease: false

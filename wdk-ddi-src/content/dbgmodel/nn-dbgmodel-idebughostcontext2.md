@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostContext2
 tech.root: debugger
 title: IDebugHostContext2 (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: Represents a context of the debugger answers questions about (what session, process, thread). Version 2. (dbgmodel.h)
 prerelease: false

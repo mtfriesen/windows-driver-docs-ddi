@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalDetails
 tech.root: debugger
 title: IDebugHostFunctionLocalDetails
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: A host optional interface which provides details about a function local variable. (dbgmodel.h)
 prerelease: false

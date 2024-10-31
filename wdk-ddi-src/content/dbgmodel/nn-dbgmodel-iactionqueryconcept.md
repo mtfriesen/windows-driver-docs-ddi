@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IActionQueryConcept
 tech.root: debugger
 title: IActionQueryConcept (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date:  10/31/2024
 targetos: Windows
 description: A concept which is automatically implemented by the data model for any object which has (or can have) actions on it.  (dbgmodel.h)
 prerelease: false
@@ -39,7 +39,7 @@ helpviewer_keywords:
 ## -description
 
 A concept which is automatically implemented by the data model for any object which has (or can have) actions
-on it.  The enumerator returned from this concept will aggregate all actions implemented via metadata keys on
+on it. The enumerator returned from this concept will aggregate all actions implemented via metadata keys on
  methods and those implemented via direct support of IActionableConcept anywhere on the object.
 
 Clients should *NEVER* implement this concept -- only query for it.

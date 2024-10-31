@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostContextExtensibility
 tech.root: debugger
 title: IDebugHostContextExtensibility 
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: An OPTIONAL dbgmodel.h interface for hosts to support that allows certain extensions.  
 prerelease: false

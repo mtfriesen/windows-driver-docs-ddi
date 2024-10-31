@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostSymbols2
 tech.root: debugger
 title: IDebugHostSymbols2
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: Version 2 of the symbols interface to the underlying debugger. (dbgmodel.h)
 prerelease: false
@@ -38,10 +38,9 @@ helpviewer_keywords:
 
 ## -description
 
-The symbols interface to the underlying debugger.
+Version 2 of the symbols interface to the underlying debugger.
 
 The IDebugHostSymbols interface is the main starting point to access symbols in the debug target. This interface can be queried from an instance of [IDebugHost](nn-dbgmodel-idebughost.md).
-
 
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 

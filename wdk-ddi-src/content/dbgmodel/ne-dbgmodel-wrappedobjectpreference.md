@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.WrappedObjectPreference
 tech.root: debugger
 title: WrappedObjectPreference enumeration (dbgmodel.h)
-ms.date:  08/12/2024
+ms.date:  10/31/2024
 targetos: Windows
 description: The WrappedObjectPreference enum indicates a preference for how the wrapper and the wrapped object should be treated.  
 prerelease: false

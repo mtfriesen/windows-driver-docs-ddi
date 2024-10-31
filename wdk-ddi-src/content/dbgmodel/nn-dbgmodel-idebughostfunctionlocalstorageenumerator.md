@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalStorageEnumerator
 tech.root: debugger
 title: IDebugHostFunctionLocalStorageEnumerator
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: IDebugHostFunctionLocalStorageEnumerator provides an interface to storage for the local (what registers or memory locations. (dbgmodel.h)
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.LocalKind
 tech.root: debugger
 title: LocalKind enumeration (dbgmodel.h)
-ms.date:  08/12/2024
+ms.date:  10/31/2024
 targetos: Windows
 description: Defines the kind of local that a particular name is (whether an argument to the function or a local variable).  
 prerelease: false

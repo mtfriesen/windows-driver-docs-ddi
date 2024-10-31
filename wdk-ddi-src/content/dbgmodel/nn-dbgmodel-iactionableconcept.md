@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IActionableConcept
 tech.root: debugger
 title: IActionableConcept (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date:  810/31/2024
 targetos: Windows
 description: A concept mechanism for implementing actions.  Clients may choose to either implement this interface or place appropriate metadata on effective void(void) methods. (dbgmodel.h)
 prerelease: false

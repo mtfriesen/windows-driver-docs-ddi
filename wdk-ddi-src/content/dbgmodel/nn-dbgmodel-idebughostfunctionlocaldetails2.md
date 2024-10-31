@@ -2,9 +2,9 @@
 UID: NN:dbgmodel.IDebugHostFunctionLocalDetails2
 tech.root: debugger
 title: IDebugHostFunctionLocalDetails2
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
-description: A host optional interface which provides details about a function local variable. (dbgmodel.h)
+description: The version 2 of a host optional interface which provides details about a function local variable. (dbgmodel.h)
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-A host optional interface which provides details about a function local variable. 
+The version 2 of a host optional interface which provides details about a function local variable. 
 
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 

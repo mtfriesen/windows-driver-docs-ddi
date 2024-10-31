@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.UDTKind
 tech.root: debugger
 title: UDTKind enumeration (dbgmodel.h)
-ms.date:  08/12/2024
+ms.date:  10/31/2024
 targetos: Windows
 description: The UDTKind enum defines the nature of the User-Defined Type (UDT) in question.  
 prerelease: false

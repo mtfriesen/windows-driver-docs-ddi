@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostSymbolSubstitutionEnumerator
 tech.root: debugger
 title: IDebugHostSymbolSubstitutionEnumerator
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: An interface for enumerating symbols with substitution text. (dbgmodel.h)
 prerelease: false

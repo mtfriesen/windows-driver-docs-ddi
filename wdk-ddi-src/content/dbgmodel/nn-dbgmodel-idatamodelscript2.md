@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDataModelScript2
 tech.root: debugger
 title: IDataModelScript2 (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: This is the second version of the core script interface. (dbgmodel.h)
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IDebugHostContextTargetComposition
 tech.root: debugger
 title: IDebugHostContextTargetComposition
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description: An interface which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for a particular host context.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NN:dbgmodel.IActionEnumerator
 tech.root: debugger
 title: IActionEnumerator (dbgmodel.h)
-ms.date:  08/15/2024
+ms.date: 10/31/2024
 targetos: Windows
 description:  An enumerator for actions on an object. (dbgmodel.h)
 prerelease: false
@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
- An enumerator for actions on an object.
+An enumerator for actions on an object.
 
 ## -inheritance
 
